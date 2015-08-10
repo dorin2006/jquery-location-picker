@@ -47,7 +47,7 @@
 						<div class="form-group">
 								<label for="usr">Select Location:</label>
 								<div class="location-picker">
-									<input type="text" id="txtAddress" class="form-control" placeholder="Enter address here" data-type='address' />
+									<input type="text" id="txtAddress" class="form-control" placeholder="Enter your address here" data-type='address' />
 									<input type="hidden" id="txtLocation" data-type='location-store' />
 
 									<div class='map-container'>
