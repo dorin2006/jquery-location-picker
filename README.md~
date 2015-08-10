@@ -29,20 +29,23 @@ Plugin saves location information in inputs and provides same data via callbacks
 See Sample.html for configuration and usage
 
 Include required scripts:
+```html
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
 <script src='http://www.openlayers.org/api/OpenLayers.js'></script>
 <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places'></script>
-
+```
 then add location picker plugin reference:
+```html
 <script src='js/location-picker.js'></script>
+'''
 
 Example markup:
+```html
 <style>
   	#map { height: 400px; width:100%;}
   	.map-container { margin-top: 10px;}
-  textarea {width:100%}
-		
 </style>
+
     
 <div class='location-picker'>
 	<input type='text' id='txtAddress' class='form-control' placeholder='Enter your address here' data-type='address' />
@@ -52,8 +55,10 @@ Example markup:
 		<div id='map' data-type='map'></div>
 	</div>
 </div>
+```
 
 Usage:
+```html
 <script>
 $(function(){
 		var locationPicker = $('.location-picker').locationPicker({
@@ -63,7 +68,7 @@ $(function(){
 		});
 });
 </script>
-		    
+```
 ## Location picker API Reference
 
 locationPicker looks for elements with data-type='address', data-type='location-store' and data-type='map'
@@ -74,6 +79,7 @@ Those elements could be changed via initialization options.
 Location selected callback function, initial location information could be passed as well.
 
 All available options are:
+```html
 <script>
 var locationPicker = $('.location-picker').locationPicker({
 			{
@@ -97,7 +103,7 @@ var locationPicker = $('.location-picker').locationPicker({
 			
 		});
 </script>
-
+```
 Location Picker methods:
 
 * getData() - returns current location data
