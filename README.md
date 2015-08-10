@@ -9,7 +9,7 @@ Maps displayed via [OpenLayers](http://openlayers.org)
  
 Plugin saves location information in inputs and provides same data via callbacks.
 
-[jquery-location-picker-demo](https://cloud.githubusercontent.com/assets/5731758/9176822/33649d4a-3f96-11e5-9235-3ade01b3d7c1.jpg)
+![jquery-location-picker-demo](https://cloud.githubusercontent.com/assets/5731758/9176822/33649d4a-3f96-11e5-9235-3ade01b3d7c1.jpg)
 
  #jquery #location-picker, #maps, #autocomplete, #geocode, #OpenStreetMap, #OSM, #OpenLayers
 
