@@ -29,11 +29,10 @@ Plugin saves location information in inputs and provides same data via callbacks
 See Sample.html for configuration and usage
 
 Include required scripts:
-'''html
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
 <script src='http://www.openlayers.org/api/OpenLayers.js'></script>
 <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places'></script>
-'''
+
 then add location picker plugin reference:
 <script src='js/location-picker.js'></script>
 
