@@ -37,7 +37,7 @@ Include required scripts:
 then add location picker plugin reference:
 ```html
 <script src='js/location-picker.js'></script>
-'''
+```
 
 Example markup:
 ```html
