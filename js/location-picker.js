@@ -53,8 +53,8 @@ $.fn.locationPicker = function(options){
 		var result = {
 			address: place.formatted_address, 
 			location: {
-				lat: place.geometry.location.G, 
-				long: place.geometry.location.K
+				lat: place.geometry.location.H, 
+				long: place.geometry.location.L
 			}
 		}
 		
